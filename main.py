@@ -27,7 +27,7 @@ flask_thread.start()
 def self_ping():
     while True:
         try:
-            requests.get("https://YOUR-URL-HERE/")
+            requests.get("https://result-kjrc.onrender.com")
             print("🔁 Self-pinged to stay awake")
         except Exception as e:
             print(f"⚠️ Self-ping failed: {e}")
